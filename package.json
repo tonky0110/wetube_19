@@ -1,0 +1,9 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Cloning Youtube with Vanilla and NodeJS",
+  "main": "index.js",
+  "repository": "https://github.com/tonky0110/wetube.git",
+  "author": "tonky0110",
+  "license": "MIT"
+}
