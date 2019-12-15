@@ -16,7 +16,9 @@ const betweenHome = (req, res, next) => {
 	next();
 };
 
-app.get('/', betweenHome, handleHome);
+app.use(betweenHome);
+
+app.get('/', handleHome);
 app.get('/profile', handleProfile);
 
 app.listen(PORT, handleListening);
