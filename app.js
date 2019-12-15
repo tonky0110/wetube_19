@@ -17,7 +17,7 @@ app.use(morgan('dev'));
 
 // router
 app.use('/', globalRouter);
-app.use('/user', userRouter);
-app.use('/video', videoRouter);
+app.use('/users', userRouter);
+app.use('/videos', videoRouter);
 
 export default app;
