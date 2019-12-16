@@ -15,12 +15,13 @@
 		"express": "^4.17.1",
 		"helmet": "^3.21.2",
 		"morgan": "^1.9.1",
+		"path": "^0.12.7",
 		"pug": "^2.0.4"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.2"
 	},
 	"scripts": {
-		"start": "nodemon --exec babel-node init.js --delay 2"
+		"start": "nodemon --exec babel-node src/init.js --delay 2"
 	}
 }
