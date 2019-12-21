@@ -11,6 +11,14 @@ const config = {
   module: {
     rules: [
       {
+        test: /\.(js)$/,
+        use: [
+          {
+            loader: "babel-loader"
+          }
+        ]
+      },
+      {
         test: /\.(scss|sass)$/,
         use: ExtractCSS.extract([
           {
