@@ -7,8 +7,8 @@
     max-width: 850px;
     margin-top: 25px;
     button {
-      width: 200px;
-      margin-bottom: 15px;
+      width: 100px;
+      margin-bottom: 25px;
     }
     .video__title,
     .video__views,
@@ -20,15 +20,15 @@
       font-size: 22px;
       font-weight: 300;
     }
+    .video__description {
+      font-size: 16px;
+    }
     .video__views {
       font-size: 14px;
     }
-    .video__description {
-      font-size: 18px;
-    }
   }
   .video__comments {
-    margin-top: 15px;
+    margin-top: 25px;
     .video__comment-number {
       font-size: 18px;
     }

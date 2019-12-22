@@ -19,8 +19,9 @@ main {
 }
 
 button,
-input,
-textarea {
+input:not([type="file"]),
+textarea,
+.fileUpload {
   padding: 7px 10px;
   width: 100%;
   border: none;
@@ -28,6 +29,7 @@ textarea {
   font-size: 14px;
   color: $black;
   font-size: 600;
+  background-color: white;
   max-width: 320px;
   resize: none;
   &::placeholder {
@@ -35,7 +37,6 @@ textarea {
     color: rgba(0, 0, 0, 0.7);
   }
 }
-
 button {
   border: none;
   background-color: #3498db;
@@ -44,4 +45,9 @@ button {
 
 button.delete {
   background-color: $dark-red;
+}
+
+button, 
+input[type="submit"] {
+  cursor: pointer;
 }
