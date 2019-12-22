@@ -45,8 +45,8 @@
 		"prettier": "^1.19.1"
 	},
 	"scripts": {
-		"dev:server": "nodemon --exec babel-node src/init.js --delay 2 --ignore 'scss'",
-		"dev:assets": "WEBPACK_ENV=development webpack -w",
+		"dev:server": "cd src && nodemon --exec babel-node src/init.js --delay 2 --ignore 'scss'",
+		"dev:assets": "cd src && WEBPACK_ENV=development webpack -w",
 		"build:assets": "WEBPACK_ENV=production webpack"
 	}
 }
